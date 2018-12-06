@@ -74,4 +74,19 @@
     <string name="credit_8">ArrowOS</string>
     <string name="credit_9">CypherOS</string>
     <string name="credit_10">DotOS</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Screenshot sound</string>
+
+    <!-- About phone cards -->
+    <string name="model">Device Model</string>
+    <string name="status">Status</string>
+    <string name="android_version">Android Version</string>
+    <string name="pearl_version">Pearl Version</string>
+    <string name="selinux">SeLinux Status</string>
+    <string name="maintainer">Maintainer</string>
+    <string name="cpu">CPU</string>
+    <string name="unknown">Unknown</string>
+    <string name="storage">Storage</string>
+    <string name="status_default">Phone number, Signal, etc.</string>
 </resources>
