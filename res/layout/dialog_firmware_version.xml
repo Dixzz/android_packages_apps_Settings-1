@@ -19,13 +19,27 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="@dimen/sim_content_padding">
 
-         <!-- Project-Pearl version -->
+	<LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:selectable="false">
+	<ImageView
+        android:layout_width="512px"
+        android:layout_height="512px"
+        android:src="@drawable/pearl_logo"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside" />
+	</LinearLayout>
+     
+	    <!-- Project-Pearl version -->
         <TextView
             style="@style/device_info_dialog_label"
             android:id="@+id/pearl_version_label"
