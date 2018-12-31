@@ -24,17 +24,19 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="@dimen/sim_content_padding">
+        android:padding="24dp">
 
 	<LinearLayout
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:selectable="false">
+
 	<ImageView
-        android:layout_width="512px"
-        android:layout_height="512px"
+        android:layout_width="420px"
+        android:layout_height="420px"
         android:src="@drawable/pearl_logo"
+        android:layout_marginBottom="12dp"
         android:adjustViewBounds="true"
         android:scaleType="centerInside" />
 	</LinearLayout>
@@ -64,25 +66,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
-        <TextView
-            style="@style/device_info_dialog_label"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@*lineageos.platform:string/lineage_version"/>
-        <org.lineageos.internal.preference.deviceinfo.LineageVersionTextView
-            style="@style/device_info_dialog_value"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
-        <TextView
-            style="@style/device_info_dialog_label"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@*lineageos.platform:string/lineage_api_level"/>
-        <org.lineageos.internal.preference.deviceinfo.LineageAPIVersionTextView
-            style="@style/device_info_dialog_value"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
 
         <TextView
             style="@style/device_info_dialog_label"

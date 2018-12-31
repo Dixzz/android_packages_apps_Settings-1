@@ -13,7 +13,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Pearl Version -->
-    <string name="pearl_version">Project-Pearl Build</string>
-    <string name="pearl_version_default">Unknown</string>
+    <string name="pearl_version">Pearl Build</string>
+    <string name="pearl_version_default">Diamond</string>
 
 </resources>
