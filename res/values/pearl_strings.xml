@@ -16,4 +16,6 @@
     <string name="pearl_version">Pearl Build</string>
     <string name="pearl_version_default">Diamond</string>
 
+    <!-- Advanced Controls -->
+	<string name="advanced_controls_title">Advanced Controls</string>
 </resources>

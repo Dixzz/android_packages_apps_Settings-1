@@ -49,6 +49,17 @@
         android:fragment="com.android.settings.system.ResetDashboardFragment"
         settings:controller="com.android.settings.system.ResetPreferenceController"/>
 
+
+       <!-- Xiaomi Part -->
+        <Preference
+                android:key="xiaomi_part"
+                android:persistent="false"
+                android:title="@string/xiaomi_part_title">
+                <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.thht.settings.device"
+                android:targetClass="com.thht.settings.device.DeviceSettings"/>
+        </Preference>
+
     <!-- System updates -->
     <Preference
         android:key="system_update_settings"

@@ -33,10 +33,10 @@
         android:selectable="false">
 
 	<ImageView
-        android:layout_width="420px"
-        android:layout_height="420px"
+        android:layout_width="480px"
+        android:layout_height="480px"
         android:src="@drawable/pearl_logo"
-        android:layout_marginBottom="12dp"
+        android:layout_marginBottom="6dp"
         android:adjustViewBounds="true"
         android:scaleType="centerInside" />
 	</LinearLayout>

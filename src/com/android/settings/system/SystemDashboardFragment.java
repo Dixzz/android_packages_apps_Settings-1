@@ -38,6 +38,10 @@ public class SystemDashboardFragment extends DashboardFragment {
 
     private static final String KEY_RESET = "reset_dashboard";
 
+
+    private static final String KEY_DEVICE_PART = "xiaomi_part";
+    private static final String KEY_DEVICE_PART_PACKAGE_NAME = "com.thht.settings.device";
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
