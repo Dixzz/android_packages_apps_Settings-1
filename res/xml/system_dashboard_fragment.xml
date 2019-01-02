@@ -54,7 +54,8 @@
         <Preference
                 android:key="xiaomi_part"
                 android:persistent="false"
-                android:title="@string/xiaomi_part_title">
+                android:title="@string/xiaomi_part_title"
+                android:summary="@string/xiaomi_part_title_summary">
                 <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="com.thht.settings.device"
                 android:targetClass="com.thht.settings.device.DeviceSettings"/>

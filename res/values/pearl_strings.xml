@@ -17,5 +17,6 @@
     <string name="pearl_version_default">Diamond</string>
 
     <!-- Advanced Controls -->
-	<string name="advanced_controls_title">Advanced Controls</string>
+	<string name="xiaomi_part_title">Advanced Controls</string>
+        <string name="xiaomi_part_title_summary">Play it safe!</string>
 </resources>
