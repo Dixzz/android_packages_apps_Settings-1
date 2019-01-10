@@ -24,22 +24,8 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="24dp">
+        android:padding="@dimen/sim_content_padding">
 
-	<LinearLayout
-        android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:selectable="false">
-
-	<ImageView
-        android:layout_width="512dp"
-        android:layout_height="512dp"
-        android:src="@drawable/pearl_logo"
-        android:adjustViewBounds="true"
-        android:scaleType="centerInside" />
-	</LinearLayout>
-     
 	    <!-- Project-Pearl version -->
         <TextView
             style="@style/device_info_dialog_label"
