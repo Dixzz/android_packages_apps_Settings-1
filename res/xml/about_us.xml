@@ -14,14 +14,16 @@ implied.
 
 <PreferenceScreen
 xmlns:android="http://schemas.android.com/apk/res/android"
-        android:title="@string/pearl_about_info">
+        android:title="@string/pearl_about_info" >
 
 <PreferenceCategory
               android:key="about"
               android:title="@string/dev_info" >
 
         <Preference
-    android:summary="@string/pixys_about_info_summary" >
+    android:summary="@string/pearl_about_info_summary" >
+        </Preference>
+</PreferenceCategory>
 
 <PreferenceCategory
               android:key="leads"
@@ -29,7 +31,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 
        <Preference
             android:title="@string/dev_1"
-    android:summary="@string/dev2_description"
+    android:summary="@string/dev1_description"
     android:icon="@drawable/ic_devs" >
     <intent
                android:action="android.intent.action.VIEW"
@@ -38,7 +40,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 
        <Preference
             android:title="@string/dev_2"
-    android:summary="@string/dev3_description"
+    android:summary="@string/dev2_description"
     android:icon="@drawable/ic_devs" >
     <intent
                android:action="android.intent.action.VIEW"
@@ -53,7 +55,6 @@ xmlns:android="http://schemas.android.com/apk/res/android"
                android:action="android.intent.action.VIEW"
                android:data="https://t.me/Sagarrokade006" />
         </Preference>
-
 </PreferenceCategory>
 
 <PreferenceCategory
@@ -67,15 +68,12 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     <intent
                android:action="android.intent.action.VIEW"
                android:data="https://t.me/nparte77" />
-
       </Preference>
-
 </PreferenceCategory>
 
 <PreferenceCategory
               android:key="maintainers"
               android:title="@string/maintainers" >
-
 </PreferenceCategory>
 
 </PreferenceScreen>
