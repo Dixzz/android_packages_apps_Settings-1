@@ -17,12 +17,13 @@
     <string name="pearl_version_default">Diamond</string>
 
     <!-- Advanced Controls -->
-	<string name="xiaomi_part_title">Advanced Controls</string>
-        <string name="xiaomi_part_title_summary">Play it safe!</string>
+    <string name="xiaomi_part_title">Advanced Controls</string>
+    <string name="xiaomi_part_title_summary">Play it safe!</string>
+    <string name="pearl_settings_title">Pearl Centre</string>
+    <string name="pearl_settings_summary">Additional settings</string>
 
-        <string name="pearl_settings_title">Pearl Centre</string>
-        <string name="pearl_settings_summary">Additional settings</string>
     <!-- Pearl Additions -->
+    <string name="pearl_about_summary">Introduction and Team</string>
     <string name="maintainers">Maintainers</string>
     <string name="maintainer_description">Maintains for %1$s</string>
     <string name="pearl_about_info">About us</string>

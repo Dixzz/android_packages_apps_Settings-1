@@ -15,13 +15,16 @@ implied.
  */
 
 package com.android.settings;
- import android.os.Bundle;
+
+import android.os.Bundle;
 import com.android.settings.SettingsPreferenceFragment;
 import android.net.Uri;
 import android.content.Intent;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceCategory;
- import com.android.internal.logging.nano.MetricsProto;
+import com.android.internal.logging.nano.MetricsProto;
+
+
  public class AboutUs extends SettingsPreferenceFragment {
      @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -49,6 +52,6 @@ import android.support.v7.preference.PreferenceCategory;
     }
      @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.SHELL;
+        return MetricsProto.MetricsEvent.PEARL;
     }
  }
