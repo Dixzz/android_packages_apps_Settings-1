@@ -26,7 +26,6 @@
         android:key="pearl_about_info"
         android:order="0"
         android:title="@string/pearl_about_info"
-        android:summary="@string/pearl_about_summary"
         android:fragment="com.android.settings.AboutUs" />
 
     <com.android.settings.applications.LayoutPreference

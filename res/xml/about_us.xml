@@ -17,63 +17,51 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/pearl_about_info" >
 
 <PreferenceCategory
-              android:key="about"
-              android:title="@string/dev_info" >
-
-        <Preference
-    android:summary="@string/pearl_about_info_summary" >
-        </Preference>
-</PreferenceCategory>
-
-<PreferenceCategory
-              android:key="leads"
-              android:title="@string/leads" >
+              android:key="credits"
+              android:title="@string/credits" >
 
        <Preference
-            android:title="@string/dev_1"
-    android:summary="@string/dev1_description"
-    android:icon="@drawable/ic_devs" >
+            android:title="@string/credit_1"
+    android:icon="@drawable/ic_los" >
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="https://t.me/Shatyam" />
+               android:data="https://github.com/LineageOS" />
         </Preference>
 
        <Preference
-            android:title="@string/dev_2"
-    android:summary="@string/dev2_description"
-    android:icon="@drawable/ic_devs" >
+            android:title="@string/credit_2"
+    android:icon="@drawable/ic_aex" >
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="https://t.me/beingmishra" />
+               android:data="https://github.com/AospExtended" />
         </Preference>
 
         <Preference
-            android:title="@string/dev_3"
-    android:summary="@string/dev3_description"
-    android:icon="@drawable/ic_devs" >
+            android:title="@string/credit_3"
+    android:icon="@drawable/ic_pixys" >
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="https://t.me/Sagarrokade006" />
+               android:data="https://github.com/PixysOS/" />
         </Preference>
-</PreferenceCategory>
-
-<PreferenceCategory
-              android:key="designers"
-              android:title="@string/designers" >
-
-       <Preference
-            android:title="@string/dev_4"
-    android:summary="@string/designers"
-    android:icon="@drawable/ic_design">
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="https://t.me/nparte77" />
-      </Preference>
 </PreferenceCategory>
 
 <PreferenceCategory
               android:key="maintainers"
               android:title="@string/maintainers" >
+</PreferenceCategory>
+
+<PreferenceCategory
+              android:key="tester"
+              android:title="@string/tester" >
+
+       <Preference
+            android:title="@string/tester_1"
+    android:icon="@drawable/ic_devs_phone">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://t.me/billouetaudrey" />
+
+      </Preference>
 </PreferenceCategory>
 
 </PreferenceScreen>

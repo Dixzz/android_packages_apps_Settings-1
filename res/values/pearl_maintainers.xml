@@ -17,13 +17,15 @@
         <item>Satyam Sharma</item>
         <item>Rahul Mishra</item>
         <item>Sagar Rokade</item>
+        <item>Mohit Torani</item>
    </string-array>
 
     <!-- Devices maintained by maintainer -->
     <string-array name="maintainers_devices" translatable="false">
         <item>Pocophone f1 (beryllium)</item> 
-        <item>Oneplus One (Bacon)</item> 
+        <item>Oneplus One (bacon)</item> 
         <item>Redmi note 4 (mido)</item> 
+        <item>Redmi note 3 (kenzo)</item>
      </string-array>
 
     <!-- GitHub link of maintainer -->
@@ -31,6 +33,7 @@
         <item>https://github.com/Dixzz</item> <!-- Maintainer: Satyam Sharma -->
         <item>https://github.com/beingmishra</item> <!-- Maintainer: Rahul Mishra -->
         <item>https://github.com/sagarrokade006</item> <!-- Maintainer: Sagar Rokade -->
+        <item>https://github.com/mtorani111</item> <!-- Maintainer: Mohit Torani -->
      </string-array>
 
 </resources>

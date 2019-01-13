@@ -23,19 +23,12 @@
     <string name="pearl_settings_summary">Additional settings</string>
 
     <!-- Pearl Additions -->
-    <string name="pearl_about_summary">Introduction and Team</string>
     <string name="maintainers">Maintainers</string>
     <string name="maintainer_description">Maintains for %1$s</string>
-    <string name="pearl_about_info">About us</string>
-    <string name="dev_info">About Project Pearl</string>
-    <string name="pearl_about_info_summary">Project Pearl is byproduct of gzosp rom based on CAF</string>
-    <string name="leads">Team Leads</string>
-    <string name="dev_1">Satyam Sharma</string>
-    <string name="dev1_description">Otaku here, Lead Source Maintainer</string>
-    <string name="dev_2">Rahul Mishra</string>
-    <string name="dev2_description">Co-Founder, Co-Source maintainer</string>
-    <string name="dev_3">Sagar Rokade</string>
-    <string name="dev3_description">Founder, Lead Developer</string>
-    <string name="dev_4">Nikhil Parte</string>
-    <string name="designers">Designers</string>
+    <string name="pearl_about_info">Credits & Maintainers</string>
+    <string name="credit">Credits</string>
+    <string name="credit_1">LineageOS</string>
+    <string name="credit_2">AospExtended</string>
+    <string name="credit_3">PixysOS</string>
+    <string name="tester_1">BillouAudrey - mido</string>
 </resources>
