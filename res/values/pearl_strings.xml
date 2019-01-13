@@ -25,8 +25,9 @@
     <!-- Pearl Additions -->
     <string name="maintainers">Maintainers</string>
     <string name="maintainer_description">Maintains for %1$s</string>
-    <string name="pearl_about_info">Credits & Maintainers</string>
-    <string name="credit">Credits</string>
+    <string name="pearl_about_info">Credits and Maintainers</string>
+    <string name="credits">Credits</string>
+    <string name="tester">Testers</string>
     <string name="credit_1">LineageOS</string>
     <string name="credit_2">AospExtended</string>
     <string name="credit_3">PixysOS</string>
