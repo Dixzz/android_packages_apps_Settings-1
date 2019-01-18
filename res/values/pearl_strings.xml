@@ -31,5 +31,13 @@
     <string name="credit_1">LineageOS</string>
     <string name="credit_2">AospExtended</string>
     <string name="credit_3">PixysOS</string>
-    <string name="tester_1">BilloutAudrey - mido</string>
+    <string name="credit_4">DirtyUnicorns</string>
+    <string name="credit_5">Xtended</string>
+    <string name="credit_6">PixelExperience</string>
+    <string name="credit_7">AOSiP</string>
+    <string name="credit_8">ArrowOS</string>
+    <string name="credit_9">CypherOS</string>
+    <string name="credit_9">DotOS</string>
+    <string name="tester_1">BillouetAudrey</string>
+    <string name="tester_2">Srinivas</string>
 </resources>

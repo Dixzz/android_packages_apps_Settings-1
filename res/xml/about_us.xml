@@ -38,10 +38,66 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 
         <Preference
             android:title="@string/credit_3"
-    android:icon="@drawable/ic_pixys" >
+            android:icon="@drawable/ic_pixys" >
     <intent
                android:action="android.intent.action.VIEW"
                android:data="https://github.com/PixysOS/" />
+        </Preference>
+
+        <Preference
+            android:title="@string/credit_4"
+            android:icon="@drawable/ic_du" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/dirtyunicorns/" />
+        </Preference>
+
+        <Preference
+            android:title="@string/credit_5"
+            android:icon="@drawable/ic_xtended" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/Xtended-Pie/" />
+        </Preference>
+
+        <Preference
+            android:title="@string/credit_6"
+            android:icon="@drawable/ic_pe" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/PixelExperience/" />
+        </Preference>
+
+        <Preference
+            android:title="@string/credit_7"
+            android:icon="@drawable/ic_aosip" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/AOSiP/" />
+        </Preference>
+
+        <Preference
+            android:title="@string/credit_8"
+            android:icon="@drawable/ic_arrow" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/ArrowOS/" />
+        </Preference>
+
+        <Preference
+            android:title="@string/credit_9"
+            android:icon="@drawable/ic_cypher" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/CypherOS/" />
+        </Preference>
+
+        <Preference
+            android:title="@string/credit_10"
+            android:icon="@drawable/ic_dot" >
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://github.com/DotOS/" />
         </Preference>
 </PreferenceCategory>
 
