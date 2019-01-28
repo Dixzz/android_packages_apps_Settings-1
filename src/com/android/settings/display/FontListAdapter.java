@@ -50,7 +50,7 @@ public class FontListAdapter extends BaseAdapter {
         mContext = context;
         mInflater = LayoutInflater.from(context);
         mFontService = IFontService.Stub.asInterface(
-                ServiceManager.getService("havocfont"));
+                ServiceManager.getService("pearlfont"));
         mPm = context.getPackageManager();
         loadFontList();
     }

@@ -39,7 +39,7 @@ public class FontDialogPreference extends CustomDialogPreference {
         super(context, attrs);
         mContext = context;
         mFontService = IFontService.Stub.asInterface(
-                ServiceManager.getService("havocfont"));
+                ServiceManager.getService("pearlfont"));
     }
     @Override
     protected void onPrepareDialogBuilder(Builder builder,

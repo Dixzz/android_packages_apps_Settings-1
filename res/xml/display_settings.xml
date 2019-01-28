@@ -77,13 +77,13 @@
         android:fragment="com.android.settings.display.ColorModePreferenceFragment"
         settings:keywords="@string/keywords_color_mode" />
 
-    <Preference
+<!--    <Preference
         android:key="font_size"
         android:title="@string/title_font_size"
         android:fragment="com.android.settings.accessibility.ToggleFontSizePreferenceFragment"
         settings:controller="com.android.settings.display.FontSizePreferenceController"
         settings:keywords="@string/keywords_display_font_size" />
-
+-->
     <com.android.settings.display.ScreenZoomPreference
         android:key="display_settings_screen_zoom"
         android:title="@string/screen_zoom_title"
@@ -133,6 +133,18 @@
         android:key="theme"
         android:title="@string/color_theme"
         android:summary="@string/summary_placeholder" />
+
+    <com.android.settings.display.FontDialogPreference
+        android:key="custom_font"
+        android:title="@string/font_picker_title"
+        android:persistent="false" />
+
+    <Preference
+        android:key="font_size"
+        android:title="@string/title_font_size"
+        android:fragment="com.android.settings.accessibility.ToggleFontSizePreferenceFragment"
+        settings:controller="com.android.settings.display.FontSizePreferenceController"
+        settings:keywords="@string/keywords_display_font_size" />
 
     <ListPreference
         android:key="systemui_theme"

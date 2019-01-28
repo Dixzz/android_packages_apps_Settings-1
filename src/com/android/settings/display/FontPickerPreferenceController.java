@@ -25,7 +25,6 @@ import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnResume;
-import com.android.settings.havoc.AccentPicker;
 import android.app.Fragment;
 import android.content.Context;
 import android.content.FontInfo;
@@ -52,7 +51,7 @@ public class FontPickerPreferenceController extends AbstractPreferenceController
             lifecycle.addObserver(this);
         }
         mFontService = IFontService.Stub.asInterface(
-                ServiceManager.getService("havocfont"));
+                ServiceManager.getService("pearlfont"));
     }
     @Override
     public void onResume() {
