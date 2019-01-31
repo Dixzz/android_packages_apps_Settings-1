@@ -10085,4 +10085,8 @@
 
     <!-- Title for Connected device shortcut [CHAR LIMIT=30] -->
     <string name="devices_title">Devices</string>
+
+    <!-- Dark theme style screen -->
+    <string name="dark_theme_style_title">Dark theme style</string>
+    <string name="systemui_theme_black">AMOLED</string>
 </resources>

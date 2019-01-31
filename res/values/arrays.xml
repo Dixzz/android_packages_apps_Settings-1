@@ -1171,6 +1171,18 @@
         <item>@string/prevent_ringing_option_none</item>
     </string-array>
 
+    <!-- Titles for SystemUI dark theme style preference. -->
+    <string-array name="dark_theme_style_entries" >
+        <item>@string/systemui_theme_dark</item>
+        <item>@string/systemui_theme_black</item>
+    </string-array>
+
+    <!-- Values for SystemUI dark theme style preference. -->
+    <string-array name="dark_theme_style_values" translatable="false" >
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
     <!-- Keep in sync with Settings.Secure.VOLUME_HUSH_* -->
     <string-array name="gesture_prevent_ringing_values" translatable="false">
         <item>1</item>
