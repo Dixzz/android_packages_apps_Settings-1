@@ -34,7 +34,8 @@ public class FontDialogPreference extends CustomDialogPreference {
     private static final String TAG = "FontDialogPreference";
     private Context mContext;
     private IFontService mFontService;
-	private ProgressDialog mProgressDialog;
+    private ProgressDialog mProgressDialog;
+
     public FontDialogPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
         mContext = context;
@@ -43,7 +44,7 @@ public class FontDialogPreference extends CustomDialogPreference {
     }
     @Override
     protected void onPrepareDialogBuilder(Builder builder,
-            DialogInterface.OnClickListener listener) {
+                                          DialogInterface.OnClickListener listener) {
         super.onPrepareDialogBuilder(builder, listener);
         FontListAdapter adapter = new FontListAdapter(mContext);
         DialogInterface.OnClickListener l = new DialogInterface.OnClickListener() {
