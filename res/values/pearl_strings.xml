@@ -62,8 +62,8 @@
     <string name="pearl_settings_summary">Additional settings</string>
 
     <!-- Pearl Additions -->
-    <string name="pearl_about_info">Credits and Maintainers</string>
-    <string name="credits">Credits</string>
+    <string name="pearl_about_info">Credits</string>
+    <string name="credits">Special thanks to</string>
     <string name="credit_1">LineageOS</string>
     <string name="credit_2">AospExtended</string>
     <string name="credit_3">PixysOS</string>
