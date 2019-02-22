@@ -82,7 +82,7 @@
     <string name="model">Device Model</string>
     <string name="status">Status</string>
     <string name="android_version">Android Version</string>
-    <string name="pearl_version">Pearl Version</string>
+    <string name="PearlVersion">Pearl Version</string>
     <string name="selinux">SeLinux Status</string>
     <string name="maintainer">Maintainer</string>
     <string name="cpu">CPU</string>

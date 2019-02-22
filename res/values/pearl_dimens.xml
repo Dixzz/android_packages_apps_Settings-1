@@ -23,8 +23,7 @@
 	<dimen name="title_top_margin">5dp</dimen>
 	<dimen name="desc_top_margin">10dp</dimen>
 	<dimen name="desc_bottom_margin">20dp</dimen>
-	<dimen name="desc_bottom_margin">20dp</dimen>
-    <dimen name="title_size">12sp</dimen>
+        <dimen name="title_size">12sp</dimen>
 	<dimen name="desc_size">16sp</dimen>
 
 </resources> 

@@ -26,21 +26,6 @@
         android:layout_height="match_parent"
         android:padding="@dimen/sim_content_padding">
 
-
-         <!-- Cake -->
-	<LinearLayout
-        android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:selectable="false">
-	<ImageView
-    	android:layout_width="match_parent"
-  	android:layout_height="match_parent"
-        android:src="@drawable/cake"
-        android:adjustViewBounds="true"
-        android:scaleType="centerInside" />
-	</LinearLayout>
-
 	    <!-- Project-Pearl version -->
         <TextView
             style="@style/device_info_dialog_label"
