@@ -63,6 +63,8 @@ public class FirmwareVersionPreferenceController extends AbstractPreferenceContr
         if (!TextUtils.equals(preference.getKey(), getPreferenceKey())) {
             return false;
         }
-	return true;
+
+        FirmwareVersionDialogFragment.show(mFragment);
+        return true;
     }
 }
