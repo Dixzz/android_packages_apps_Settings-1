@@ -20,7 +20,6 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.Fragment;
 import android.app.FragmentManager;
-import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -36,6 +35,14 @@ public class FirmwareVersionDialogFragment extends InstrumentedDialogFragment {
 
     private View mRootView;
 
+    public static void show(Fragment host) {
+        final FragmentManager manager = host.getChildFragmentManager();
+        if (manager.findFragmentByTag(TAG) == null) {
+            final FirmwareVersionDialogFragment dialog = new FirmwareVersionDialogFragment();
+            dialog.show(manager, TAG);
+        }
+    }
+
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.DIALOG_FIRMWARE_VERSION;
@@ -47,21 +54,12 @@ public class FirmwareVersionDialogFragment extends InstrumentedDialogFragment {
                 .setTitle(R.string.firmware_title)
                 .setPositiveButton(android.R.string.ok, null /* listener */);
 
-        mRootView = null;
+        mRootView = LayoutInflater.from(getActivity()).inflate(
+                R.layout.dialog_firmware_version, null /* parent */);
 
-        LayoutInflater inflater1 = (LayoutInflater) getContext()
-                            .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-
-        if (inflater1 != null) {
-            mRootView = inflater1.inflate(
-                    R.layout.dialog_firmware_version, null /* parent */, false);
-        }
-        builder.setView(mRootView);
-        final AlertDialog dialog = builder.create();
-        dialog.show();
         initializeControllers();
 
-        return dialog;
+        return builder.setView(mRootView).create();
     }
 
     public void setText(int viewId, CharSequence text) {
