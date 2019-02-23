@@ -3,7 +3,8 @@
     android:width="740dp"
     android:height="250dp"
     android:viewportWidth="740"
-    android:viewportHeight="250">
+    android:viewportHeight="250"
+    android:tint="?android:attr/colorAccent">
 
     <path
         android:fillColor="#FFFFFF"
